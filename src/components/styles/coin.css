@@ -1,0 +1,32 @@
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.symbol {
+  font-weight: 500;
+}
+
+.price {
+  font-weight: 500;
+}
+
+.change-green {
+  color: green;
+  font-weight: bold;
+}
+.change-red {
+  color: red;
+  font-weight: bold;
+}
+.market-cap {
+  font-weight: 500;
+}
+.last-updated {
+  font-weight: 500;
+}

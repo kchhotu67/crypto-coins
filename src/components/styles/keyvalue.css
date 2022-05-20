@@ -1,0 +1,23 @@
+.key-value{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.key {
+  font-weight: bold;
+  color: #333333f0
+}
+
+.value-red {
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(255, 51, 0);
+}
+
+.value-green {
+  font-size: 17px;
+  font-weight: 700;
+  color: #116911;
+}

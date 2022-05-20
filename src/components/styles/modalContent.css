@@ -1,0 +1,98 @@
+.modal-content {
+  position: relative;
+  border-radius: 3px;
+  min-width: 500px;
+}
+
+.content {
+  background-color: #fffcfce3;
+  padding: 20px;
+}
+
+.modal-content .icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.content-title{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.modal-header {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-header .left img {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left .name-price{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.name-price .name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.name-price .price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+.right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right .bold-value{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.right div{
+  font-weight: bold;
+  color: #333333ce
+}
+
+.key-data {
+  font-weight: bold;
+  color: #333333ce
+}
+
+.key-data span {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+
+.modal-loader-container{
+  min-width: 500px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+.loader {
+  width: 100%;
+  height: calc(100% - 62.4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-message {
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  color: #29cfc9;
+}
